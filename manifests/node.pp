@@ -1,4 +1,4 @@
 node 'node1.devops.com' {
   include java:install
-  include tomcat:wq!
+  include tomcat
 }
