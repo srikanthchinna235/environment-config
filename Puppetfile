@@ -21,9 +21,9 @@ forge 'https://forge.puppet.com'
  mod 'java',
    :git    => 'https://github.com/thedevopscloud/java.git',
    :branch => 'production'
- mod 'java',
+ mod 'ntp',
    :git    => 'https://github.com/thedevopscloud/ntp.git',
    :branch => 'production'
- mod 'java',
+ mod 'stdlib',
    :git    => 'https://github.com/thedevopscloud/stdlib.git',
    :branch => 'production'
