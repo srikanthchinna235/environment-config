@@ -27,3 +27,9 @@ forge 'https://forge.puppet.com'
  mod 'stdlib',
    :git    => 'https://github.com/thedevopscloud/stdlib.git',
    :branch => 'production'
+ mod 'roles',
+   :git    => 'https://github.com/thedevopscloud/roles.git',
+   :branch => 'production'
+ mod 'profiles',
+   :git    => 'https://github.com/thedevopscloud/profiles.git',
+   :branch => 'production'
