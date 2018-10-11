@@ -1,6 +1,3 @@
 node 'node1.devops.com' {
-  include java::install
-  include tomcat
-  include ntp
-
+  include roles::rhel7::base_rhel7
 }
