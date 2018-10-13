@@ -32,4 +32,4 @@ node default {
 }
 
 #hiera class lookups work
-lookup ('role')
+lookup('role').include
