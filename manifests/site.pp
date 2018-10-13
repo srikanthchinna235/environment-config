@@ -30,6 +30,3 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
-
-#hiera class lookups work
-lookup('role').include
