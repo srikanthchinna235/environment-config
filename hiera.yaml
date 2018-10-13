@@ -9,4 +9,5 @@ hierarchy:
     data_hash: yaml_data
     paths:
       - "/etc/puppetlabs/code/environments/production/hieradata/nodes/%{trusted.certname}.yaml"
-      - 'common.yaml'
+      - 'common.yaml
+      - "/etc/puppetlabs/code/environments/production/module/roles/%{role}.yaml
