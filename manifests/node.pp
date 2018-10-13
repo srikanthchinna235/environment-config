@@ -1,3 +1,3 @@
 node 'node1.devops.com' {
-  include roles::rhel7::base_rhel7
+  include roles::rhel7::web_tomcat.pp
 }
