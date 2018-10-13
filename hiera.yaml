@@ -10,4 +10,4 @@ hierarchy:
     paths:
       - "/etc/puppetlabs/code/environments/production/hieradata/nodes/%{trusted.certname}.yaml"
       - 'common.yaml'
-      - "/etc/puppetlabs/code/environments/production/module/roles/%{role}.yaml"
+      - "/etc/puppetlabs/code/environments/production/modules/roles/%{role}.yaml"
