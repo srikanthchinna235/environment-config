@@ -17,24 +17,24 @@ forge 'https://forge.puppet.com'
 #  :branch => 'docs_experiment'
  mod 'tomcat',
    :git    => 'https://github.com/thedevopscloud/tomcat.git',
-   :branch => 'production' 
+   :branch => 'development' 
  mod 'java',
    :git    => 'https://github.com/thedevopscloud/java.git',
-   :branch => 'production'
- mod 'ntp',
-   :git    => 'https://github.com/thedevopscloud/ntp.git',
-   :branch => 'production'
- mod 'stdlib',
-   :git    => 'https://github.com/thedevopscloud/stdlib.git',
-   :branch => 'production'
+   :branch => 'development'
+# mod 'ntp',
+#   :git    => 'https://github.com/thedevopscloud/ntp.git',
+#   :branch => 'development'
+# mod 'stdlib',
+#   :git    => 'https://github.com/thedevopscloud/stdlib.git',
+#   :branch => 'development'
  mod 'roles',
    :git    => 'https://github.com/thedevopscloud/roles.git',
-   :branch => 'production'
+   :branch => 'development'
  mod 'profiles',
    :git    => 'https://github.com/thedevopscloud/profiles.git',
-   :branch => 'production'
+   :branch => 'development'
  mod 'hieradata-nodes',
    :git    => 'https://github.com/thedevopscloud/hieradata-nodes.git',
-   :branch => 'production',
+   :branch => 'development',
    :install_path => 'hieradata'
 
