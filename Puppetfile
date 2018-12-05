@@ -36,3 +36,6 @@ forge 'https://forge.puppet.com'
  mod 'thedevopscloud_facts',
    :git    => 'https://github.com/thedevopscloud/thedevopscloud_facts',
    :branch => 'production'
+ mod 'Test',
+   :git    => 'https://github.com/thedevopscloud/Test.git',
+   :branch => 'production'
