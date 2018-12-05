@@ -37,6 +37,6 @@ forge 'https://forge.puppet.com'
    :git    => 'https://github.com/thedevopscloud/hieradata-nodes.git',
    :branch => 'production',
    :install_path => 'hieradata'
- mod 'test',
-   :git    => 'https://github.com/thedevopscloud/test.git',
+mod 'custom_facts',
+   :git    => 'https://github.com/thedevopscloud/custom_facts.git',
    :branch => 'production'
