@@ -33,9 +33,6 @@ forge 'https://forge.puppet.com'
  mod 'profiles',
    :git    => 'https://github.com/thedevopscloud/profiles.git',
    :branch => 'production'
- mod 'thedevopscloud_facts',
-   :git    => 'https://github.com/thedevopscloud/thedevopscloud_facts',
-   :branch => 'production'
- mod 'Test',
+  mod 'Test',
    :git    => 'https://github.com/thedevopscloud/Test.git',
    :branch => 'production'
