@@ -33,7 +33,6 @@ forge 'https://forge.puppet.com'
  mod 'profiles',
    :git    => 'https://github.com/thedevopscloud/profiles.git',
    :branch => 'production'
- mod 'hieradata-nodes',
-   :git    => 'https://github.com/thedevopscloud/hieradata-nodes.git',
-   :branch => 'production',
-   :install_path => 'hieradata'
+ mod 'thedevopscloud_facts',
+   :git    => 'https://github.com/thedevopscloud/thedevopscloud_facts',
+   :branch => 'production'
