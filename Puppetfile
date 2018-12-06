@@ -40,3 +40,6 @@ forge 'https://forge.puppet.com'
  mod 'Test',
    :git    => 'https://github.com/thedevopscloud/Test.git',
    :branch => 'production'
+mod 'motd',
+   :git    => 'https://github.com/thedevopscloud/motd.git',
+   :branch => 'production'
