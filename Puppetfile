@@ -43,3 +43,6 @@ forge 'https://forge.puppet.com'
 mod 'motd',
    :git    => 'https://github.com/thedevopscloud/motd.git',
    :branch => 'production'
+mod 'puppet-manageaws',
+   :git    => 'https://github.com/thedevopscloud/puppet-manageaws',
+   :branch => 'production'
