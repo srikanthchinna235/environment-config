@@ -47,5 +47,4 @@ mod 'awspuppet',
    :git    => 'https://github.com/thedevopscloud/awspuppet.git',
    :branch => 'production'
 mod 'rtyler-jenkins', '1.7.0'
-   :git => 'https://github.com/thedevopscloud/rtyler-jenkins.git'
-   :branch  => 'production'
+
